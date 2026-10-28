@@ -1,0 +1,347 @@
+{
+  "scale": 1.56,
+  "scale_input_stl_m_to_output_mm": 1560.0,
+  "target_height_mm_estimate": 390,
+  "servo": {
+    "model": "FEETECH STS3215-C001",
+    "qty": 10,
+    "envelope_mm": [
+      45.23,
+      24.73,
+      35.0
+    ],
+    "mass_g_each": 55,
+    "mount_hole_pattern_mm_approx": {
+      "x_pitch": 40.5,
+      "y_pitch": 20.1,
+      "hole_diameter": 2.3
+    }
+  },
+  "head_micro_servo_qty": 1,
+  "battery_envelope_mm": [
+    105,
+    33,
+    25
+  ],
+  "parts": [
+    {
+      "file": "top_head_shell_x1p56.stl",
+      "source_mesh": "top_head_shell.stl",
+      "role": "Outer head crown",
+      "size_mm": [
+        143.14,
+        191.4,
+        72.28
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "bottom_head_shell_x1p56.stl",
+      "source_mesh": "bottom_head_shell.stl",
+      "role": "Outer lower head shell",
+      "size_mm": [
+        143.15,
+        182.13,
+        31.41
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "face_part_x1p56.stl",
+      "source_mesh": "face_part.stl",
+      "role": "Face / beak front",
+      "size_mm": [
+        136.74,
+        19.5,
+        69.62
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "jaw_x1p56.stl",
+      "source_mesh": "jaw.stl",
+      "role": "Beak lower shell (static mount in this build)",
+      "size_mm": [
+        142.61,
+        107.19,
+        45.94
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "jaw_soft_x1p56.stl",
+      "source_mesh": "jaw_soft.stl",
+      "role": "Beak flexible-detail reference",
+      "size_mm": [
+        136.77,
+        50.28,
+        13.16
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "soft_mouth_top_x1p56.stl",
+      "source_mesh": "soft_mouth_top.stl",
+      "role": "Beak upper detail",
+      "size_mm": [
+        137.0,
+        50.8,
+        5.11
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "left_shell_x1p56.stl",
+      "source_mesh": "left_shell.stl",
+      "role": "Left torso shell",
+      "size_mm": [
+        52.59,
+        126.19,
+        65.04
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "right_shell_x1p56.stl",
+      "source_mesh": "right_shell.stl",
+      "role": "Right torso shell",
+      "size_mm": [
+        49.55,
+        126.2,
+        65.04
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "trunk_base_x1p56.stl",
+      "source_mesh": "trunk_base.stl",
+      "role": "Central torso frame",
+      "size_mm": [
+        88.92,
+        56.16,
+        4.68
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "upper_leg_left_x1p56.stl",
+      "source_mesh": "upper_leg_left.stl",
+      "role": "Left upper-leg structural shell",
+      "size_mm": [
+        43.68,
+        74.35,
+        95.15
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "upper_leg_right_x1p56.stl",
+      "source_mesh": "upper_leg_right.stl",
+      "role": "Right upper-leg structural shell",
+      "size_mm": [
+        43.68,
+        74.35,
+        95.15
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "upper_leg_rigidity_plate_x1p56.stl",
+      "source_mesh": "upper_leg_rigidity_plate.stl",
+      "role": "Upper-leg reinforcement plate",
+      "size_mm": [
+        1.56,
+        70.19,
+        90.57
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "leg_x1p56.stl",
+      "source_mesh": "leg.stl",
+      "role": "Lower-leg structural shell",
+      "size_mm": [
+        12.4,
+        31.2,
+        90.48
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "ankle_left_x1p56.stl",
+      "source_mesh": "ankle_left.stl",
+      "role": "Left ankle bracket",
+      "size_mm": [
+        61.6,
+        56.94,
+        39.78
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "ankle_right_x1p56.stl",
+      "source_mesh": "ankle_right.stl",
+      "role": "Right ankle bracket",
+      "size_mm": [
+        61.6,
+        56.94,
+        39.78
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "foot_left_x1p56.stl",
+      "source_mesh": "foot_left.stl",
+      "role": "Left foot shell",
+      "size_mm": [
+        62.53,
+        84.24,
+        26.38
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "foot_right_x1p56.stl",
+      "source_mesh": "foot_right.stl",
+      "role": "Right foot shell",
+      "size_mm": [
+        62.53,
+        84.24,
+        26.38
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "sole_left_x1p56.stl",
+      "source_mesh": "sole_left.stl",
+      "role": "Left foot sole",
+      "size_mm": [
+        64.11,
+        84.24,
+        20.14
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "sole_right_x1p56.stl",
+      "source_mesh": "sole_right.stl",
+      "role": "Right foot sole",
+      "size_mm": [
+        64.11,
+        84.24,
+        20.14
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "hip_l_x1p56.stl",
+      "source_mesh": "hip_l.stl",
+      "role": "Left hip bracket",
+      "size_mm": [
+        50.62,
+        53.82,
+        29.64
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "yaw2roll_x1p56.stl",
+      "source_mesh": "yaw2roll.stl",
+      "role": "Hip yaw-to-roll bracket",
+      "size_mm": [
+        35.88,
+        40.25,
+        31.98
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "yaw_roll_motion_x1p56.stl",
+      "source_mesh": "yaw_roll_motion.stl",
+      "role": "Upper body/neck joint bracket",
+      "size_mm": [
+        53.04,
+        56.0,
+        35.1
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "neck_x1p56.stl",
+      "source_mesh": "neck.stl",
+      "role": "Neck support",
+      "size_mm": [
+        3.12,
+        31.2,
+        17.16
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "neck_pitch_x1p56.stl",
+      "source_mesh": "neck_pitch.stl",
+      "role": "Neck/head support bracket",
+      "size_mm": [
+        54.6,
+        28.08,
+        43.2
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "motor_support_x1p56.stl",
+      "source_mesh": "motor_support.stl",
+      "role": "Head motor support reference",
+      "size_mm": [
+        114.66,
+        84.55,
+        29.33
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "bearing_roll_x1p56.stl",
+      "source_mesh": "bearing_roll.stl",
+      "role": "Bearing support reference",
+      "size_mm": [
+        35.88,
+        4.68,
+        62.4
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "noenoeil_x1p56.stl",
+      "source_mesh": "noenoeil.stl",
+      "role": "Eye detail",
+      "size_mm": [
+        46.8,
+        14.82,
+        46.8
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "lens_x1p56.stl",
+      "source_mesh": "lens.stl",
+      "role": "Camera/lens bezel detail",
+      "size_mm": [
+        26.43,
+        29.52,
+        26.43
+      ],
+      "watertight_in_source": true
+    },
+    {
+      "file": "m12_lens_holder_x1p56.stl",
+      "source_mesh": "m12_lens_holder.stl",
+      "role": "Camera/lens holder reference",
+      "size_mm": [
+        37.44,
+        23.09,
+        24.96
+      ],
+      "watertight_in_source": true
+    }
+  ]
+}
